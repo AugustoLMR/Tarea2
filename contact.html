@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>DIC cafe</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <nav class="navbar">
+          <a class="aLogo" href="index.html"><img class="logo" src="images/sample_logo_k.png"></a>
+          <ul class="global_nav">
+            <a href="index.html" class="a_OpcionesBarra"><li class="opcionesBarra">Home</li></a>
+            <a href="#" class="a_OpcionesBarra"><li class="opcionesBarra">Menu</li></a>
+            <a href="contact.html" class="a_OpcionesBarra"><li class="opcionesBarra">Contact</li></a>
+          </ul>
+        </nav>
+    </header>
+    <section>
+      <article class="section_inner">
+      <div class="section_title">
+        <h1>Contact</h1>
+        <p>contactanos</p>
+      </div>
+      <form action="#" method="post">
+      <table>
+          <tr>
+            <td><label for="name">Nombre</label></td>
+            <td><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr>
+            <td><label for="phonenumber">Contactanos</label></td>
+            <td><input type="tel" name="phonenumber" id="phonenumber"></td>
+          </tr>
+          <tr>
+            <td><label for="region">Area de residencia</label></td>
+            <td>
+              <select name="region" id="region">
+                <option value="0">Please select</option>
+                <option value="1">Hokkaido</option>
+                <option value="2">Tohoku</option>
+                <option value="3">Kanto</option>
+                <option value="4">Central Japan</option>
+                <option value="5">Kinki</option>
+                <option value="6">Chugoku & Shikoku</option>
+                <option value="7">Kyushu</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="content">Contenido</label></td>
+            <td><textarea name="content" id="content"></textarea></td>
+          </tr>
+      </table>
+      <button type="reset">Reset</button>
+      <button type="submit">Send</button>
+    </form>
+    </article>
+    </section>
+    <footer>
+      <nav>
+        <ul>
+          <a href="index.html" class="footer_nav_item"><li>Home</li></a>
+          <a href="blueberry_pancakes.html" class="footer_nav_item"><li>Menu</li></a>
+          <a href="contact.html" class="footer_nav_item"><li>Contact</li></a>
+        </ul>
+        <a href="index.html" class="footer_nav_item"><img src="images/sample_logo_w.png"></a>
+        <p class="footer_right">© DIVE INTO CODE Corp. Todos los DERECHOS RESERVADOS.</p>
+      </nav>
+  </footer>
+  </body>
+</html>
